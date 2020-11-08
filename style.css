@@ -68,6 +68,8 @@ html {
 
 /*MAIN*/
 
+/*Learn something new*/
+
 .learn-smth-new {
     display: flex;
     background-color: rgb(235, 237, 240);
@@ -113,3 +115,67 @@ html {
     margin-top: 1rem;
     cursor: pointer;
 }
+
+/*KEEP PRACTICING*/
+
+.keep-practicing {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.keep-practicing .left {
+    width: 60%;
+}
+
+.keep-practicing .left img {
+    width: 92%;
+    height: auto;
+    margin: 2rem 1.5rem;
+}
+
+.keep-practicing .left .content {
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.keep-practicing .left .content h2 {
+    font-size: 2.4rem;
+    margin-top: 0%;
+}
+
+.keep-practicing .left .content .two {
+    margin-bottom: 0%;
+}
+
+.keep-practicing .right {
+    width: 40%;
+}
+
+.keep-practicing .right .article-box {
+    display: flex;
+}
+
+.keep-practicing .right .article-box:first-child {
+    margin-top: 2rem;
+}
+
+.keep-practicing .right .article-box:first-child img {
+    margin-top: 0 !important;
+}
+
+#oliver {
+    background-color: rgb(235, 237, 240);
+}
+
+.keep-practicing .right .article-box img {
+    width: 35%;
+    margin: 1rem;
+}
+
+.keep-practicing .right .article-box .article-content {
+    width: 65%;
+    margin-left: 1rem;
+}
+
