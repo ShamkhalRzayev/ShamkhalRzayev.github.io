@@ -293,3 +293,15 @@ html {
     margin: 0;
 }
 
+/*FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px rgb(80, 80, 80);
+}
+
+footer div {
+    display: flex;
+    margin-right: 1rem;
+}
