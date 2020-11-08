@@ -2,12 +2,9 @@
 /* General styles */
 html {
     font-size: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-
-}
 
 /*HEADER*/
 
@@ -69,3 +66,50 @@ body {
 }
 
 
+/*MAIN*/
+
+.learn-smth-new {
+    display: flex;
+    background-color: rgb(235, 237, 240);
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.learn-smth-new img {
+    width: 60%;
+    height: auto;
+    margin: 2rem 1.5rem;
+}
+
+.learn-smth-new .content {
+    width: 35%;
+}
+
+.learn-smth-new .content-items {
+    justify-content: center;
+    margin-right: 25%;
+}
+
+.learn-smth-new .content-items h1 {
+    font-size: 2.3rem;
+    color: rgb(80, 80, 80);
+}
+
+.learn-smth-new .content-items p {
+    font-size: 1.3rem;
+    color:rgb(80, 80, 80);
+}
+
+.learn-smth-new .content-items button {
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(80, 80, 80);
+    width: 100%;
+    padding: 0.5rem 0;
+    border: none;
+    text-decoration: none;
+    font-weight: 100;
+    margin-top: 1rem;
+    cursor: pointer;
+}
