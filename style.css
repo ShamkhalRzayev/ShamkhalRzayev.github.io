@@ -123,6 +123,8 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*KEEP PRACTICING LEFT*/
+
 .keep-practicing .left {
     width: 60%;
 }
@@ -148,6 +150,8 @@ html {
 .keep-practicing .left .content .two {
     margin-bottom: 0%;
 }
+
+/*KEEP PRACTICING RIGHT*/
 
 .keep-practicing .right {
     width: 40%;
@@ -176,6 +180,49 @@ html {
 
 .keep-practicing .right .article-box .article-content {
     width: 65%;
+    margin-left: 1rem;
+}
+
+/*START LEARNING*/
+
+.start-learning {
+    background-color: rgb(235, 237, 240);
+    margin-top: 2rem;
+}
+
+.start-learning h2 {
+    text-align: center;
+    padding-top: 2rem;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.start-learning .box-container {
+    display: flex;
+    background-color: rgb(235, 237, 240);
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
+    flex-wrap: wrap;
+}
+
+.start-learning .box-container .box {
+    margin: 2rem;
+    background-color: white;
+    width: 28%;
+    color: rgb(80, 80, 80);
+}
+
+.start-learning .box-container .box img {
+    width: 100%;
+}
+
+.start-learning .box-container .box h6 {
+    color: black;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.start-learning .box-container .box p {
     margin-left: 1rem;
 }
 
